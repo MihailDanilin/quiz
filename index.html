@@ -25,26 +25,39 @@
     <div class="cont">
       <h1>ВЫБЕРИТЕ КАТЕГОРИЮ ВОПРОСОВ</h1>
       <div class="choose-category">
-        <p class="category-item">Искусство и литература</p>
-        <p class="category-item">Общие вопросы</p>
-        <p class="category-item">Спорт и досуг</p>
-        <p class="category-item">Фильмы и ТВ</p>
-        <p class="category-item">География</p>
-        <p class="category-item">История</p>
-        <p class="category-item">Музыка</p>
-        <p class="category-item">Наука</p>
+        <p data-name="arts_and_literature" class="category-item">
+          Искусство и литература
+        </p>
+        <p data-name="general_knowledge" class="category-item">Общие вопросы</p>
+        <p data-name="sport_and_leisure" class="category-item">Спорт и досуг</p>
+        <p data-name="film_and_tv" class="category-item">Фильмы и ТВ</p>
+        <p data-name="geography" class="category-item">География</p>
+        <p data-name="history" class="category-item">История</p>
+        <p data-name="music" class="category-item">Музыка</p>
+        <p data-name="science" class="category-item">Наука</p>
       </div>
       <button class="button">ПРОДОЛЖИТЬ</button>
     </div>
     <div class="cont">
       <h1>ВЫБЕРИТЕ СЛОЖНОСТЬ</h1>
       <div class="choose-difficulty">
-        <p class="difficulty-item">Легко</p>
-        <p class="difficulty-item">Средне</p>
-        <p class="difficulty-item">Сложно</p>
+        <p data-name="easy" class="difficulty-item">Легко</p>
+        <p data-name="medium" class="difficulty-item">Средне</p>
+        <p data-name="hard" class="difficulty-item">Сложно</p>
       </div>
       <button class="button">НАЧАТЬ ТЕСТ</button>
     </div>
-    <script src="app.js"></script>
+    <script src="app.js" type="module"></script>
+    <script src="api.js" type="module"></script>
+    <!-- <div class="cont active">
+      <h1 class="question">Какого цвета бананы?</h1>
+      <div class="answers">
+        <p class="answer-item">Александр Сергеевич</p>
+        <p class="answer-item">Да</p>
+        <p class="answer-item">Данилин Михаил</p>
+        <p class="answer-item">синий</p>
+      </div>
+      <button class="button active-button">ОТВЕТИТЬ</button>
+    </div> -->
   </body>
 </html>
