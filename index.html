@@ -2,12 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Вопросы</title>
+    <title>Квиз</title>
   </head>
   <body>
+    <div class="cont active">
+      <h1>КВИЗ ОТ WEB-MIHALICH</h1>
+      <button class="button active-button">НАЧАТЬ</button>
+    </div>
+    <div class="cont">
+      <h1>ВЫБЕРИТЕ КАТЕГОРИЮ ВОПРОСОВ</h1>
+      <div class="choose-category">
+        <p class="category-item">Искусство и литература</p>
+        <p class="category-item">Общие вопросы</p>
+        <p class="category-item">Спорт и досуг</p>
+        <p class="category-item">Фильмы и ТВ</p>
+        <p class="category-item">География</p>
+        <p class="category-item">История</p>
+        <p class="category-item">Музыка</p>
+        <p class="category-item">Наука</p>
+      </div>
+      <button class="button">ПРОДОЛЖИТЬ</button>
+    </div>
+    <div class="cont">
+      <h1>ВЫБЕРИТЕ СЛОЖНОСТЬ</h1>
+      <div class="choose-difficulty">
+        <p class="difficulty-item">Легко</p>
+        <p class="difficulty-item">Средне</p>
+        <p class="difficulty-item">Сложно</p>
+      </div>
+      <button class="button">НАЧАТЬ ТЕСТ</button>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

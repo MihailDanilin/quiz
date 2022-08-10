@@ -1,0 +1,65 @@
+*{
+    transition: 0.3s;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, #60004a, #7c0043, #940036, #a60022, #b00000);
+    color: rgb(255, 255, 255);
+}
+.button{
+    color: white;
+    display: block;
+    opacity: 0;
+    background: none;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.button:hover{
+    border-color: rgba(0, 0, 0, 0);
+    color: #ff5bb2;
+}
+.cont{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.choose-category{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.category-item, .difficulty-item{
+    cursor: pointer;
+    transition: 0.2s;
+    display: inline;
+    font-size: 17px;
+}
+.category-item:hover, .difficulty-item:hover{
+    color: #ff5bb2 !important;
+}
+.choose-difficulty{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.active{
+    display: flex;
+}
+.active-button{
+    opacity: 1;
+}
