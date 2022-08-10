@@ -93,6 +93,6 @@ function questionTemplate(
     <p class="answer-item">${answer2}</p>
     <p class="answer-item">${answer3}</p>
   </div>
-  <button class="button active-button">ОТВЕТИТЬ</button>
+  <button class="button">ОТВЕТИТЬ</button>
 </div>`;
 }
